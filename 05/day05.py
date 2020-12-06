@@ -17,10 +17,7 @@ def find(ticket_part, size, lower_char):
 
 
 def part1(lines):
-    maximum = 0
-    for line in lines:
-        maximum = max(maximum, find_seat_id(line.strip()))
-    return maximum
+    return max(find_seat_id(line.strip()) for line in lines)
 
 
 def part2(lines):
