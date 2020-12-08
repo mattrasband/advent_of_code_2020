@@ -1,0 +1,4 @@
+shiny gold bags contain 1 shiny coral bag, 1 dotted purple bags.
+shiny coral bags contain no other bags.
+dotted purple bags contain 1 shiny orange bag.
+shiny orange bags contain no other bags.
